@@ -3,7 +3,7 @@ import Cards from "@/app/(components)/(projects)/cards";
 
 function CardLayout() {
   return (
-    <div className="flex flex-wrap justify-center space-x-9">
+    <div className="flex flex-wrap justify-center  bg-[#ebf5fc]">
       <Cards
         heading={"Html"}
         discription={
