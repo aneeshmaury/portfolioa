@@ -8,10 +8,10 @@ function Left() {
         <p>I'm Aliza Fatima</p>
         <div>Full Stack Developer</div>
         <p>
-          "My extensive experience, skills, and dedication make me confident
-          that I am the right candidate for this position. I am passionate about
-          my work, and I am committed to delivering results that exceed
-          expectations."
+          My extensive experience, skills, and dedication make me confident that
+          I am the right candidate for this position. I am passionate about my
+          work, and I am committed to delivering results that exceed
+          expectations.
         </p>
       </div>
     </>
