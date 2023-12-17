@@ -5,7 +5,7 @@ function Left() {
     <>
       <div className="flex flex-col">
         <h2>Hello Humans</h2>
-        <p>I'm Aliza Fatima</p>
+        <p>Im Aliza Fatima</p>
         <div>Full Stack Developer</div>
         <p>
           My extensive experience, skills, and dedication make me confident that

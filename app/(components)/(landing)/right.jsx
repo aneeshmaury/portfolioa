@@ -6,7 +6,7 @@ function Right() {
   return (
     <div className="bg-cyan-900">
       <>
-        <Image src="lappy.svg" width={1500} height={800} />
+        <Image src="lappy.svg" alt="lappy" width={1500} height={800} />
       </>
     </div>
   );
