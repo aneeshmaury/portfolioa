@@ -26,7 +26,7 @@ const isProd = (process.env.NODE_ENV = "production");
 module.exports = {
   basePath: isProd ? "/portfolio" : "",
   output: isProd ? "export" : "",
-  distDir: isProd ? "dist" : "",
+  distDir: "dist",
   images: {
     unoptimized: true,
     remotePatterns: [
