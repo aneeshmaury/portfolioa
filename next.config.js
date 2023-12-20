@@ -21,13 +21,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
 
-const isProd = (process.env.NODE_ENV = "production");
+// const isProd = (process.env.NODE_ENV = "production");
 
 module.exports = nextConfig;
 module.exports = {
-  basePath: isProd ? "/portfolio" : "",
-  output: "export",
-  distDir: "dist",
+  // basePath: isProd ? "/portfolio" : "",
+  // output: isProd ? "export" : "standalone",
+  // distDir: isProd ? "dist" : ".next",
+  basePath: process.env.NODE_ENV === "production" ? "/react-with-nextjs" : "",
+  output: process.env.NODE_ENV === "production" ? "export" : "standalone", // Set a default value for development
+  distDir: process.env.NODE_ENV === "production" ? "dist" : ".next", // Set a default value for development
   images: {
     unoptimized: true,
     remotePatterns: [
