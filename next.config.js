@@ -2,7 +2,7 @@
 const nextConfig = {};
 
 module.exports = {
-  basePath: process.env.NODE_ENV === "production" ? "/portfolio" : "",
+  basePath: process.env.NODE_ENV === "production" ? "portfolio" : "",
   output: process.env.NODE_ENV === "production" ? "export" : "",
   distDir: process.env.NODE_ENV === "production" ? "dist" : "",
 
