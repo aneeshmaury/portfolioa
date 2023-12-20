@@ -6,7 +6,7 @@ module.exports = {
   output: "export",
   distDir: "dist",
   images: {
-    unoptimised: true,
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
