@@ -23,6 +23,7 @@ const nextConfig = {};
 
 const isProd = (process.env.NODE_ENV = "production");
 
+module.exports = nextConfig;
 module.exports = {
   basePath: isProd ? "/portfolio" : "",
   output: "export",
@@ -38,5 +39,3 @@ module.exports = {
     ],
   },
 };
-
-module.exports = nextConfig;
