@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 
 function Cards({ heading, discription, imgLink }) {
   return (
@@ -8,7 +8,7 @@ function Cards({ heading, discription, imgLink }) {
       <div className="ml-4 mr-4 mb-2">
         <div className="m-5 w-80 px-[30px] py-10 bg-[#ebf5fc] rounded-[40px] shadow-[-6px_-6px_20px_rgba(255,255,255,1),6px_6px_20px_rgba(0,0,0,0.1)] hover:shadow-[inset_-6px_-6px_20px_rgba(255,255,255,0.5),inset_6px_6px_20px_rgba(0,0,0,0.05)] hover:scale-[0.98]">
           <div className="  text-center">
-            <Image
+            <img
               src={imgLink}
               alt="sd"
               className="max-w-[120px] hover:scale-[0.98] inline"
