@@ -30,7 +30,7 @@ module.exports = {
   // distDir: isProd ? "dist" : ".next",
   basePath: process.env.NODE_ENV === "production" ? "/react-with-nextjs" : "",
   output: process.env.NODE_ENV === "production" ? "export" : "standalone", // Set a default value for development
-  distDir: process.env.NODE_ENV === "production" ? "dist" : ".next", // Set a default value for development
+  distDir: "dist",
   images: {
     unoptimized: true,
     remotePatterns: [
