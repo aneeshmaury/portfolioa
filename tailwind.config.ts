@@ -10,7 +10,14 @@ const config: Config = {
   darkMode: 'class',
   theme: {
     extend: {
-  
+      boxShadow: {
+        'custom': 'inset 5px 5px 10px #707070, inset -5px -5px 10px #EAD7BB',
+        'custom2':'5px 5px 10px #707070, -5px -5px 10px #000'
+      },
+      colors:{
+        'head':'#9DDAC6',
+'subhead':"#EAD7BB",
+      },
     },
   },
   plugins: [
