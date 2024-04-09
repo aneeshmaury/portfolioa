@@ -29,13 +29,13 @@ function MobileView() {
             // className={`${route === "/" ? "text-red-500" : "text-pink-300"}`}
           >
             <div
-              className="flex cursor-pointer"
+              className="flex cursor-pointer code3"
               onClick={() => {
                 closeMenu();
               }}
             >
-              <PiPantsThin size={20} />
-              PantParade
+              {/* <PiPantsThin size={20} /> */}
+              shayaliza
             </div>
           </Link>
           <div className="" onClick={toggleMenu}>

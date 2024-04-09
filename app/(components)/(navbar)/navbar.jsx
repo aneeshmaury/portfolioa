@@ -23,10 +23,10 @@ function Navbar() {
             <div
               className="hidden md:flex lg:flex cursor-pointer pb-2
               border-b-2 border-transparent hover:border-blue-500 
-              transition duration-300 ease-in-out
+              transition duration-300 ease-in-out code3
               "
             >
-              <PiPantsThin size={20} />
+              {/* <PiPantsThin size={20} /> */}
               Shayaliza
             </div>
           </Link>
