@@ -16,7 +16,15 @@ const config: Config = {
       },
       colors:{
         'head':'#9DDAC6',
-'subhead':"#EAD7BB",
+        'subhead':"#EAD7BB",
+        'text':'#2D9596',
+        'lighthead':'#265073',
+        'lightsubhead':'#2d9596',
+        'redbtn':'#900c3f',
+        'hoverbtnblue':'#265073',
+        'lighttext':'#5F264A',
+        'lightbtn':'#900C3F',
+        'darkbg':'#113946'
       },
     },
   },

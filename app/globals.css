@@ -1,3 +1,172 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@500;700&family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+.head1 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Slab", serif;
+  color: #265073;
+  font-size: xx-large;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.ui-btn {
+  --btn-default-bg: #fff;
+  --btn-padding: 15px 20px;
+  --btn-hover-bg: #fff;
+  --btn-transition: 0.3s;
+  --btn-letter-spacing: 0.1rem;
+  --btn-animation-duration: 1.2s;
+  --btn-shadow-color: rgba(0, 0, 0, 0.137);
+  --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
+  --hover-btn-color: #265073;
+  --default-btn-color: #900c3f;
+  --font-size: 16px;
+  --font-weight: 600;
+  --font-family: "Kode Mono", monospace;
+}
+
+/* button settings 👆 */
+
+.ui-btn {
+  box-sizing: border-box;
+  padding: var(--btn-padding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: var(--default-btn-color); */
+  font: var(--font-weight) var(--font-size) var(--font-family);
+  /* background: var(--btn-default-bg); */
+  border: none;
+  cursor: pointer;
+  transition: var(--btn-transition);
+  overflow: hidden;
+  box-shadow: var(--btn-shadow);
+}
+
+.ui-btn span {
+  letter-spacing: var(--btn-letter-spacing);
+  transition: var(--btn-transition);
+  box-sizing: border-box;
+  position: relative;
+  /* background: inherit; */
+}
+
+.ui-btn span::before {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  /* background: inherit; */
+}
+
+.ui-btn:hover span,
+.ui-btn:focus span {
+  color: #900c3f;
+}
+
+.ui-btn:hover span::before,
+.ui-btn:focus span::before {
+  animation: chitchat linear both var(--btn-animation-duration);
+}
+
+@keyframes chitchat {
+  0% {
+    content: "A";
+  }
+
+  5% {
+    content: "L";
+  }
+
+  10% {
+    content: "I";
+  }
+
+  15% {
+    content: "Z";
+  }
+
+  20% {
+    content: "A";
+  }
+
+  25% {
+    content: "S";
+  }
+
+  30% {
+    content: "LOVE";
+  }
+  35% {
+    content: "YOU";
+  }
+
+  40% {
+    content: "A";
+  }
+
+  45% {
+    content: "L";
+  }
+
+  50% {
+    content: "I";
+  }
+
+  55% {
+    content: "Z";
+  }
+
+  60% {
+    content: "A";
+    right: 0;
+  }
+
+  65% {
+    content: "L";
+    right: 0;
+  }
+
+  70% {
+    content: "O";
+    right: 0;
+  }
+
+  75% {
+    content: "V";
+    right: 0;
+  }
+
+  80% {
+    content: "E";
+    right: 0;
+  }
+
+  85% {
+    content: "Y";
+    right: 0;
+  }
+
+  90% {
+    content: "O";
+    right: 0;
+  }
+
+  95% {
+    content: "O";
+    right: 0;
+  }
+
+  100% {
+    content: "";
+    right: 0;
+  }
+}
+.code {
+  font-family: "Kode Mono", monospace;
+}

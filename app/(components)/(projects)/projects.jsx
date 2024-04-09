@@ -3,7 +3,9 @@ import CardLayout from "@/app/(components)/(projects)/cardLayout";
 
 function Projects() {
   return (
-    <div className="#projects" id="projects">
+    <div id="projects" className="">
+      <div className="head1 dark:text-head">Projects</div>
+
       <CardLayout />
     </div>
   );
